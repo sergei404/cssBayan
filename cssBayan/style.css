@@ -80,6 +80,7 @@ html {
 .bayan__label {
   font-size: calc((1vw + 1vh) / 0.6);
   font-weight: bold;
+  cursor: pointer;
 }
 .bayan__label span {
   display: flex;
