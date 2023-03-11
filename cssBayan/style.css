@@ -69,7 +69,6 @@ html {
   font-size: calc((1vw + 1vh) / 0.5);
 }
 .bayan__item {
-  padding-top: 2.2rem;
   color: rgb(66, 7, 185);
   border-top: 0.12rem solid rgb(167, 160, 161);
   transition: color 0.3s ease;
@@ -95,13 +94,23 @@ html {
   opacity: 1;
 }
 .bayan__input {
-  position: absolute;
-  left: -999rem;
+  height: 0;
+  width: 0;
+  margin: 0;
 }
 .bayan__label img {
   width: 1px;
   height: 1px;
   margin: 0 auto;
+}
+.bayan__label:hover img {
+  width: 70%;
+  height: auto;
+  margin-bottom: 35px;
+  transition: width 0.4s ease;
+}
+.bayan__label:hover span i {
+  transform: rotate(-45deg);
 }
 .bayan__input:checked~ .bayan__label {
   color: #000;
