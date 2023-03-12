@@ -50,7 +50,6 @@ html {
 }
 .bayan__item {
   color: rgb(66, 7, 185);
-  border-top: 0.12rem solid rgb(167, 160, 161);
 }
 .bayan__label {
   display: block;
@@ -59,6 +58,7 @@ html {
   font-size: calc((1vw + 1vh) / 0.6);
   font-weight: bold;
   cursor: pointer;
+  border-top: 0.12rem solid rgb(167, 160, 161);
   transition: color 0.4s ease;
 }
 .bayan:hover .bayan__label {
